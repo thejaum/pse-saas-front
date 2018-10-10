@@ -1,0 +1,46 @@
+{
+    "request1": {
+        "system": {
+            "action": "Login"
+        },
+        "data": {
+            "email": "joao.castro@lecom.com.br",
+            "senha": "123456789"
+        }
+    },
+    "request2": {
+        "system": {
+            "action": "RegisterSchool"
+        },
+        "data": {
+            "name": "EE Senador Rodolfo Miranda",
+            "cep": "17015-220",
+            "adress": "Rua Mario Amaral Gurgel",
+            "adress_number": "210",
+            "fone":"01432851020"
+        }
+    },
+    "request3": {
+        "system": {
+            "action": "RegisterAccount"
+        },
+        "data": {
+            "name": "Joao Castro",
+            "email": "joao.castro@lecom.com.br",
+            "senha": "123456789",
+            "group": [
+                "aluno"
+            ]
+        }
+    },
+    "request4": {
+        "system": {
+            "action": "RegisterGroup"
+        },
+        "data": {
+            "name": "Aluno",
+            "desc": "Grupo de alunos"
+        }
+    }
+
+}

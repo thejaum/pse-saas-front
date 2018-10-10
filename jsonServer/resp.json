@@ -1,0 +1,161 @@
+{
+  "response1a": {
+    "system": {
+      "api_version": "1.0",
+      "date": "09-10-2018 12:17:30",
+      "desc": "Authenticate credentials for login"
+    },
+    "data": {
+      "success": true,
+      "msg": "Autenticado com sucesso."
+    }
+  },
+  "response1b": {
+    "system": {
+      "api_version": "1.0",
+      "date": "09-10-2018 12:17:30",
+      "desc": "Authenticate credentials for login"
+    },
+    "data": {
+      "success": false,
+      "msg": "Usuario invalido."
+    }
+  },
+  "response2a": {
+    "system": {
+      "api_version": "1.0",
+      "date": "09-10-2018 12:17:30",
+      "desc": "Response to RegisterSchool"
+    },
+    "data": {
+      "success": true,
+      "msg": "Success"
+    }
+  },
+  "response2b": {
+    "system": {
+      "api_version": "1.0",
+      "date": "09-10-2018 12:17:30",
+      "desc": "Response to RegisterSchool"
+    },
+    "data": {
+      "success": false,
+      "msg": "Error, school name already exists."
+    }
+  },
+  "response2c": {
+    "system": {
+      "api_version": "1.0",
+      "date": "09-10-2018 12:17:30",
+      "desc": "Load all schools"
+    },
+    "data": {
+      "scholls": [
+        {
+          "uniqueId" : 1,
+          "name" : "EE Senador Rodolfo Miranda",
+          "action_date": "05-10-2018 10:20:37",
+          "status": 0
+        }
+      ]
+    }
+  },
+  "response3a": {
+    "system": {
+      "api_version": "1.0",
+      "date": "09-10-2018 12:17:30",
+      "desc": "Response to RegisterAccount"
+    },
+    "data": {
+      "success": true,
+      "msg": "Success"
+    }
+  },
+  "response3b": {
+    "system": {
+      "api_version": "1.0",
+      "date": "09-10-2018 12:17:30",
+      "desc": "Response to RegisterAccount"
+    },
+    "data": {
+      "success": false,
+      "msg": "Error, user acount already in use."
+    }
+  },
+  "response3c": {
+    "system": {
+      "api_version": "1.0",
+      "date": "09-10-2018 12:17:30",
+      "desc": "Load all acounts"
+    },
+    "data": {
+      "accounts": [
+        {
+          "uniqueId" : 1,
+          "name" : "Joao Castro",
+          "action_date": "05-10-2018 10:20:37",
+          "status": 0
+        },
+        {
+          "uniqueId" : 2,
+          "name" : "Lucas Almeida",
+          "action_date": "28-09-2018 10:20:37",
+          "status": 1
+        }
+      ]
+    }
+  },
+
+  "response4a": {
+    "system": {
+      "api_version": "1.0",
+      "date": "09-10-2018 12:17:30",
+      "desc": "Response to RegisterGroup"
+    },
+    "data": {
+      "success": true,
+      "msg": "Success"
+    }
+  },
+  "response4b": {
+    "system": {
+      "api_version": "1.0",
+      "date": "09-10-2018 12:17:30",
+      "desc": "Response to RegisterGroup"
+    },
+    "data": {
+      "success": false,
+      "msg": "Error, group name already exists."
+    }
+  },
+  "response4c": {
+    "system": {
+      "api_version": "1.0",
+      "date": "09-10-2018 12:17:30",
+      "desc": "Load all groups"
+    },
+    "data": {
+      "groups": [
+        {
+          "uniqueId" : 1,
+          "name" : "Master",
+          "action_date": "05-10-2018 10:20:37",
+          "status": 0
+        },
+        {
+          "uniqueId" : 2,
+          "name" : "Alunos",
+          "action_date": "28-09-2018 10:22:40",
+          "status": 0
+        },
+        {
+          "uniqueId" : 3,
+          "name" : "Professores",
+          "action_date": "28-09-2018 10:31:10",
+          "status": 1
+        }
+      ]
+    }
+  }
+
+}
